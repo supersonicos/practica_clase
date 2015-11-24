@@ -5,4 +5,55 @@
       <specification xmi:type="uml:LiteralInteger" xmi:id="_ts73gJLTEeWTxZpqBiHYvw"/>
     </ownedLiteral>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Hr1NAJLVEeWTxZpqBiHYvw" name="Calculadora">
+    <generalization xmi:id="_SqA8YJLWEeWTxZpqBiHYvw" general="_Izc8YJLVEeWTxZpqBiHYvw"/>
+    <ownedAttribute xmi:id="_MxVuQJLVEeWTxZpqBiHYvw" name="num1">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_SrlfIJLVEeWTxZpqBiHYvw" name="num2">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_Yzji8JLVEeWTxZpqBiHYvw" name="ingresaNumero">
+      <ownedParameter xmi:id="_biue8JLVEeWTxZpqBiHYvw" name="num1">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_eDFi4JLVEeWTxZpqBiHYvw" name="num2">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Izc8YJLVEeWTxZpqBiHYvw" name="Operacion">
+    <ownedOperation xmi:id="_n4WX0JLVEeWTxZpqBiHYvw" name="suma">
+      <ownedParameter xmi:id="_qFMp4JLVEeWTxZpqBiHYvw" name="num1">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_r4KcUJLVEeWTxZpqBiHYvw" name="num2">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_ubJ9gJLVEeWTxZpqBiHYvw" name="resta">
+      <ownedParameter xmi:id="_v0hkMJLVEeWTxZpqBiHYvw" name="num1">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_z4X0IJLVEeWTxZpqBiHYvw" name="num2">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_2g1EIJLVEeWTxZpqBiHYvw" name="multiplicacion">
+      <ownedParameter xmi:id="_4yPtIJLVEeWTxZpqBiHYvw" name="num1">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_6_avUJLVEeWTxZpqBiHYvw" name="num2">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_8uPooJLVEeWTxZpqBiHYvw" name="division">
+      <ownedParameter xmi:id="_9q4QAJLVEeWTxZpqBiHYvw" name="num1">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="__yNv8JLVEeWTxZpqBiHYvw" name="num2">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
 </uml:Model>
