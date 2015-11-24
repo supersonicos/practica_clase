@@ -9,7 +9,7 @@
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Capture']"/>
   </ownedViews>
   <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_hJygAJLTEeWTxZpqBiHYvw" initialized="true">
-    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_q8d7AJLTEeWTxZpqBiHYvw" name="NewModel Class Diagram">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_q8d7AJLTEeWTxZpqBiHYvw" name="modeloDominio">
       <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_q8gXQJLTEeWTxZpqBiHYvw" source="GMF_DIAGRAMS">
         <data xmi:type="notation:Diagram" xmi:id="_q8gXQZLTEeWTxZpqBiHYvw" type="Sirius" element="_q8d7AJLTEeWTxZpqBiHYvw" measurementUnit="Pixel">
           <children xmi:type="notation:Node" xmi:id="_r13oMJLTEeWTxZpqBiHYvw" type="2003" element="_rzbYMJLTEeWTxZpqBiHYvw">
@@ -58,7 +58,7 @@
       <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer"/>
       <target xmi:type="uml:Model" href="model.uml#_hHJbsJLTEeWTxZpqBiHYvw"/>
     </ownedRepresentations>
-    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_C3YmkJLVEeWTxZpqBiHYvw" name="NewModel Class Diagram">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_C3YmkJLVEeWTxZpqBiHYvw" name="DiagramaClases">
       <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_C3fUQJLVEeWTxZpqBiHYvw" source="GMF_DIAGRAMS">
         <data xmi:type="notation:Diagram" xmi:id="_C3fUQZLVEeWTxZpqBiHYvw" type="Sirius" element="_C3YmkJLVEeWTxZpqBiHYvw" measurementUnit="Pixel">
           <children xmi:type="notation:Node" xmi:id="_HtkSYJLVEeWTxZpqBiHYvw" type="2003" element="_Hr10EJLVEeWTxZpqBiHYvw">
@@ -622,7 +622,7 @@
             <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_hKRBi5LTEeWTxZpqBiHYvw" red="238" green="249" blue="244"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Dashboard']/@ownedRepresentations[name='Dashboard']/@defaultLayer/@containerMappings[name='DA_Dashboard']/@subContainerMappings[name='DA_Navigate']"/>
-          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_rD-4QJLTEeWTxZpqBiHYvw" target="_q8d7AJLTEeWTxZpqBiHYvw" name="NewModel Class Diagram" semanticElements="_q8d7AJLTEeWTxZpqBiHYvw" tooltipText="Double click to open the current diagram">
+          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_rD-4QJLTEeWTxZpqBiHYvw" target="_q8d7AJLTEeWTxZpqBiHYvw" name="modeloDominio" semanticElements="_q8d7AJLTEeWTxZpqBiHYvw" tooltipText="Double click to open the current diagram">
             <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_rD_fUJLTEeWTxZpqBiHYvw" labelSize="10" labelAlignment="LEFT">
               <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_rD_fUZLTEeWTxZpqBiHYvw"/>
               <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Dashboard']/@ownedRepresentations[name='Dashboard']/@defaultLayer/@containerMappings[name='DA_Dashboard']/@subContainerMappings[name='DA_Navigate']/@subNodeMappings[name='DA_Representation']/@style"/>
@@ -631,7 +631,7 @@
             </ownedStyle>
             <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Dashboard']/@ownedRepresentations[name='Dashboard']/@defaultLayer/@containerMappings[name='DA_Dashboard']/@subContainerMappings[name='DA_Navigate']/@subNodeMappings[name='DA_Representation']"/>
           </ownedElements>
-          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_C9P-AJLVEeWTxZpqBiHYvw" target="_C3YmkJLVEeWTxZpqBiHYvw" name="NewModel Class Diagram" semanticElements="_C3YmkJLVEeWTxZpqBiHYvw" tooltipText="Double click to open the current diagram">
+          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_C9P-AJLVEeWTxZpqBiHYvw" target="_C3YmkJLVEeWTxZpqBiHYvw" name="DiagramaClases" semanticElements="_C3YmkJLVEeWTxZpqBiHYvw" tooltipText="Double click to open the current diagram">
             <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_C9QlEJLVEeWTxZpqBiHYvw" labelSize="10" labelAlignment="LEFT">
               <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_C9QlEZLVEeWTxZpqBiHYvw"/>
               <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Dashboard']/@ownedRepresentations[name='Dashboard']/@defaultLayer/@containerMappings[name='DA_Dashboard']/@subContainerMappings[name='DA_Navigate']/@subNodeMappings[name='DA_Representation']/@style"/>
